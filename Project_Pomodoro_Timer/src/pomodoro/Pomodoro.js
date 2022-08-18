@@ -3,6 +3,7 @@ import classNames from "../utils/class-names";
 import useInterval from "../utils/useInterval";
 import { minutesToDuration, secondsToDuration } from "../utils/duration";
 import Progress from "./Progress";
+// import Bar from "./Bar";
 
 // These functions are defined outside of the component to insure they do not have access to state
 // and are, therefore more likely to be pure.
